@@ -1,0 +1,20 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment — keep .env.example, never commit .env
+.env
+
+# macOS
+.DS_Store
+
+# Personal job postings — add your own to DOCS/jobs/, they won't be committed
+DOCS/jobs/*.md
+
+# Generated resumes — output files, not committed
+DOCS/resumes/*.txt
+
+# Archived job files — moved here by the agent after processing
+DOCS/archives/
